@@ -17,7 +17,7 @@ def create_main_keyboard():
 # Create inline keyboard for instant URL access
 def create_url_keyboard():
     keyboard = InlineKeyboardMarkup()
-    url_button = InlineKeyboardButton("🌐 Open Website Now", url="https://nullnmods-key-auth.netlify.app")
+    url_button = InlineKeyboardButton("🌐 Open Website Now", url="https://tele-key-sys.netlify.app/")
     keyboard.add(url_button)
     return keyboard
 
@@ -54,7 +54,7 @@ def handle_all_messages(message):
         )
 
 def handle_visit_site(message):
-    site_url = "https://nullnmods-key-auth.netlify.app"
+    site_url = "https://tele-key-sys.netlify.app/"
     
     # Send message with clickable button that opens the URL directly
     bot.send_message(
@@ -65,7 +65,7 @@ def handle_visit_site(message):
     
 
 def handle_get_key(message):
-    url = "https://nullnmods-key-auth.netlify.app/.netlify/functions/generate-key"
+    url = "https://tele-key-sys.netlify.app/.netlify/functions/generate-key"
     
     # Send typing action to show bot is working
     bot.send_chat_action(message.chat.id, 'typing')
