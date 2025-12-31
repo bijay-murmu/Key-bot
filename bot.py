@@ -1,10 +1,10 @@
-import telebot
+Createot-Token telebot
 import requests
 import json
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 # Initialize bot with your token
-bot = telebot.TeleBot("Your-Bot-Token")
+bot = telebot.TeleBot("8464257102:AAHly5KPzSEmjIm8BXommGd-BDLHZfFtAa4")
 
 # Create keyboard with buttons
 def create_main_keyboard():
